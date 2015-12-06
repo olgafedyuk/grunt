@@ -16,6 +16,8 @@ environment:
     - nodejs_version: 0.10
     - nodejs_version: 0.12
     - nodejs_version: 1
+  my_variable:
+    secure: 9daf3f7e881ae65ad21d45438d7e7d321da9b101
 
 install:
   - ps: Install-Product node $env:nodejs_version
